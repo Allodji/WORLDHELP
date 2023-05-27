@@ -1,0 +1,71 @@
+body{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+background-image: url('C:/Users/ACER/Desktop/web/he.png');
+background-size: 1025px 1000px;
+background-repeat: no-repeat;
+background-color:rgb(252, 248, 248);
+color:white;
+
+}
+
+
+
+/*  Barre de navigation */
+  h1{
+  flex-wrap: wrap;
+       opacity: inherit;
+     max-width: max-content;
+   border-radius: 330px;
+   max-width: max-content;
+  margin: 0px;
+  padding: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+   position: sticky;
+   justify-content: center;
+   opacity: 5;
+   
+  }
+
+
+  span.comptes{
+    display: flex;
+    margin-left:15px;
+     font-size: larger;
+     font-style: italic;
+     font-style: strong;
+     
+  }
+
+
+  section{
+
+  font-size: 199px;
+  }
+
+
+
+  a{
+    margin-right: 15px;
+    font-weight: 1000;
+
+
+
+}
+
+
+
+@media screen and (max-width){
+
+  body{
+    background-size: 320px  480px;
+
+  }
+  
+}
+
+
+
+
+/* Fin de la barre de navigqtion*/
